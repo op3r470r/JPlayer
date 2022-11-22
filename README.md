@@ -7,10 +7,8 @@
 
 ## 界面
 
-<img src="ReadmeFile/player.png" style="zoom: 35%;" />
+![player](ReadmeFile/player.png)
 
+![drawerList](ReadmeFile/drawerList.png)
 
-
-<img src="ReadmeFile/drawerList.png" style="zoom:35%;" />
-
-![](ReadmeFile/animation.gif)
+![animation](ReadmeFile/animation.gif)
