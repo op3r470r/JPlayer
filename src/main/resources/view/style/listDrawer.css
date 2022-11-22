@@ -1,0 +1,64 @@
+/* 歌曲列表 */
+.root {
+    -fx-background-color: transparent;
+}
+
+.top {
+    -fx-background-color: #ABEBC6;
+}
+
+.listView .list-cell:filled:selected:focused,
+.listView .list-cell:filled:selected {
+    -fx-background-color: darkred;
+    -fx-text-fill: white;
+    -fx-padding: 0px;
+}
+
+.listView .list-view{
+    fx-background-color: transparent;
+}
+
+.listView .list-cell:filled {
+    -fx-background-color: #212F3D;
+    -fx-text-fill: white;
+    -fx-padding: 0px;
+}
+
+.listView .list-cell:empty {
+    -fx-background-color: #ABEBC6;
+    -fx-text-fill: white;
+    -fx-padding: 0px;
+}
+
+.listView .list-cell:filled:hover {
+    -fx-background-color: darkred;
+    -fx-text-fill: white;
+    -fx-padding: 0px;
+}
+
+
+.listView .scroll-bar:vertical .track ,
+.listView .scroll-bar:horizontal .track{
+    -fx-background-color: #212F3D;
+    -fx-border-color: #212F3D;
+}
+
+
+
+.listView .scroll-bar:vertical .increment-button ,
+.listView .scroll-bar:vertical .decrement-button ,
+.listView .scroll-bar:horizontal .increment-button ,
+.listView .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0.0em;
+    -fx-padding :0.0 0.0 0.0 0.0;
+}
+
+.listView .scroll-bar:vertical .increment-arrow,
+.listView .scroll-bar:vertical .decrement-arrow,
+.listView .scroll-bar:horizontal .increment-arrow,
+.listView .scroll-bar:horizontal .decrement-arrow{
+    -fx-shape: " ";
+    -fx-padding: 0.0 0.15em;
+}
+
