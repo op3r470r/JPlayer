@@ -16,8 +16,8 @@ public class PlayerApp extends Application {
         stage.setTitle("JPlayer");
         stage.setResizable(false);
         stage.initStyle(StageStyle.UNDECORATED);
-        stage.getIcons().add(new Image(getClass().getResource("/images/logo.png").toExternalForm()));
-        Parent root = FXMLLoader.load(getClass().getResource("/view/jPlayer.fxml"));
+        stage.getIcons().add(new Image(getClass().getResource("/com.op3r470r.jplayer/view/images/logo.png").toExternalForm()));
+        Parent root = FXMLLoader.load(getClass().getResource("/com.op3r470r.jplayer/view/mainView.fxml"));
         stage.setScene(new Scene(root));
         stage.show();
     }
